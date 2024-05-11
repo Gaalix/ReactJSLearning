@@ -7,7 +7,7 @@ var logger = require("morgan");
 // vključimo mongoose in ga povežemo z MongoDB
 var mongoose = require("mongoose");
 var mongoDB =
-  "mongodb+srv://borincgal:sTObIHPOS4rL9BUH@vaja4.khb0vsf.mongodb.net/";
+  "";
 mongoose.connect(mongoDB);
 mongoose.Promise = global.Promise;
 var db = mongoose.connection;
