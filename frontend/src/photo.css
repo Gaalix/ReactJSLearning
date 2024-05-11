@@ -1,0 +1,19 @@
+.photo-card {
+  width: 500px !important; /* Adjust the width as needed */
+  height: 600px !important; /* Adjust the height as needed */
+}
+
+.card-login {
+  width: 500px !important; /* Adjust the width as needed */
+}
+
+.photo-card .image img {
+  max-height: 400px; /* Adjust the max height as needed */
+  object-fit: cover;
+  width: 100%; /* Make the image take up the full width of the link */
+  height: 100%; /* Make the image take up the full height of the link */
+}
+
+.photo-grid {
+  margin-left: 20px; /* Adjust the margin as needed */
+}
